@@ -1,0 +1,77 @@
+/*Guidelines : This is a New schema creation, we will need information on all data you want to track for this new data type.
+
+a. Please note you need to create the fields "Data Category, Data Type, Data Format and Experimental Strategy" as part of atleast one table and mark the fields and corresponding tables as required.
+
+b. Add Key-value fields
+
+c. Define datatype of new fields 
+
+d. You can mark new fields as required
+
+e.You can mark new tables as required 
+
+f.The tables added here shall be listed under the Category \"Others\" by default.
+
+An example has been provided below for the table, field addition , marking required fields and required tables. 
+Please remove the commented texts (guidelines and example) before uploading the Schema
+{
+"properties":
+{
+   "table_name1": {
+      "properties": {
+         "data_category": {
+            "enum": [
+               "XXX"
+            ]
+         },
+         "data_type": {
+            "enum": [
+               "XXX"
+            ]
+         },
+         "data_format": {
+            "enum": [
+               "XXX"
+            ]
+         },
+         "experimental_strategy": {
+            "enum": [
+               "XXX"
+            ]
+         },
+         "field_name1": {
+            "type": "string"
+         },
+         "field_name2": {
+            "enum": [
+               "enum value1",
+               "enum value2"
+            ]
+         },
+         "field_name3": {
+            "type": "number"
+         }
+         
+      },
+	  "required": [
+            "data_category",
+            "data_type",
+            "data_format",
+            "experimental_strategy",
+            "field_name1",
+            "field_name3"
+         ]
+   }
+},
+  "required": [
+    "table_name1"
+  ]
+}
+*/
+{
+   "properties": {
+      
+      /*Please start adding the new tables and fields from here.Do not remove the properties and the 2 curly braces mentioned above*/
+	  
+}
+}

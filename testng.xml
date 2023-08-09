@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="REDCAP Automation Test Suite">
+    <test name="RedCap_testCases">
+        <classes>
+            <class name="com.hcl.redcap.TC58_GzFileIngestion_FromBackEnd"/>
+            <class name="com.hcl.redcap.TC178_VerifyRawSeq_UI_Ingestion"/>
+            <class name="com.hcl.redcap.TC189_Add_Sample_From_Case"/>
+            <class name="com.hcl.redcap.TC190_Add_File_From_Case"/>
+            <class name="com.hcl.redcap.TC191_Add_Aliquot_From_Sample"/>
+            <class name="com.hcl.redcap.TC192_Add_File_From_Sample"/>
+            <class name="com.hcl.redcap.TC193_Add_File_From_Aliquot"/>
+            <class name="com.hcl.redcap.TC207_ViewAliquots_Belonging_To_Case"/>
+            <class name="com.hcl.redcap.TC212_Verify_AddSample_Aliquot_Options"/>
+            <class name="com.hcl.redcap.TC210_Verify_CaseDetailsPage"/>
+            <class name="com.hcl.redcap.TC211_Verify_UpdateCase"/>
+            <class name="com.hcl.redcap.TC180_Verify_Ref_UI_Ingestion"/>
+            <class name="com.hcl.redcap.TC215_Add_MultipleFiles_UI"/>
+            <class name="com.hcl.redcap.TC181_Verify_MetaDataSaved_Ingested"/>
+            <class name="com.hcl.redcap.TC204_Verify_FileName_Url_Present"/>
+            <class name="com.hcl.redcap.TC205_Verify_Valid_Invalid_Url"/>
+            <class name="com.hcl.redcap.TC206_ViewSamples_Belonging_To_Case"/>
+            <class name="com.hcl.redcap.TC214_Verify_Invalid_Projectname_ErrorMsg"/>
+            <class name="com.hcl.redcap.TC216_Verify_Remove_AddedFiles_UI"/>
+            <class name="com.hcl.redcap.TC217_Assoc_MultipleFiles_To_Single_MetaData"/>
+            <class name="com.hcl.redcap.TC221_Reset_AWS_Pw_UI"/>
+            <class name="com.hcl.redcap.TC222_Verify_Update_MetaData"/>
+            <class name="com.hcl.redcap.TC222_Verify_Update_MetaData_Admin"/>
+            <class name="com.hcl.redcap.TC222_Verify_Update_MetaData_DM"/>
+            <class name="com.hcl.redcap.TC223_Add_More_MetaData"/>
+            <class name="com.hcl.redcap.TC223_Add_More_MetaData_DM"/>
+            <class name="com.hcl.redcap.TC63_VerifyAddUser_ToProject"/>
+            <class name="com.hcl.redcap.TC64_Verify_DM_PO_DU1_DU2_Project_Listviewoptions"/>
+            <class name="com.hcl.redcap.TC76_Add_DeleteUser_UI"/>
+            <class name="com.hcl.redcap.TC79_AddNewUser_VerifyErrorMsg"/>
+            <class name="com.hcl.redcap.TC80_Edit_DeleteUser_UI"/>
+            <class name="com.hcl.redcap.TC84_Verify_RawSeq_NonSeq_Ref_Under_CreateManifest"/>
+            <class name="com.hcl.redcap.TC101_Verify_TechnicalSettings_DU1_DU2"/>
+            <class name="com.hcl.redcap.TC102_Verify_TechnicalSettings_PO_UA"/>
+            <class name="com.hcl.redcap.TC143_Verify_EC2Instance_DA"/>
+            <class name="com.hcl.redcap.TC146_InstanceTermination_DA"/>
+            <class name="com.hcl.redcap.TC159_RequestAccess_RawFiles"/>
+            <class name="com.hcl.redcap.TC160_RequestAccess_AccessoryFiles"/>
+            <class name="com.hcl.redcap.TC162_ReqAccess_Admin_PO"/>
+            <class name="com.hcl.redcap.TC163_MultipleReqtable_ErrorMsg"/>
+            <class name="com.hcl.redcap.TC164_EditReqTable_From_MOPage"/>
+            <class name="com.hcl.redcap.TC169_VerifyDI_BackEnd_DiffCombos"/>
+            <class name="com.hcl.redcap.TC174_Verify_Raw_MandatoryFields"/>
+            <class name="com.hcl.redcap.TC175_Create_MetaData_RequiredFields"/>
+            <class name="com.hcl.redcap.TC179_VerifyRawNonSeq_UI_Ingestion"/>
+            <class name="com.hcl.redcap.TC182_DeleteMetaData_backend"/>
+            <class name="com.hcl.redcap.TC182_DeleteMetaData_WithoutFile"/>
+            <class name="com.hcl.redcap.TC188_Verify_UpdateMetaData_UI"/>
+            <class name="com.hcl.redcap.TC255_MultipleFiles_Mapped_To_Aliquot"/>
+            <class name="com.hcl.redcap.TC256_RawFiles_Csv_Download"/>
+            <class name="com.hcl.redcap.TC257_Cases_Csv_Download"/>
+            <class name="com.hcl.redcap.TC258_Verify_AliquotID_CMPage"/>
+            <class name="com.hcl.redcap.TC262_UserManage_BreadCrumbs"/>
+            <class name="com.hcl.redcap.TC263_Project_Manage_BreadCrumbs"/>
+            <class name="com.hcl.redcap.TC264_CatalogMgmt_BreadCrumbs"/>
+            <class name="com.hcl.redcap.TC268_Verify_OpeningFiles_DA"/>
+            <class name="com.hcl.redcap.TC270_UpdateMetaData_Save"/>
+            <class name="com.hcl.redcap.TC293_Dwnload_Exist_DomScehma"/>
+            <class name="com.hcl.redcap.TC294_Dwnld_Domain_SchemaTemplate"/>
+            <class name="com.hcl.redcap.TC295_DataManagmnt_BreadCrumbs"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </classes>
+    </test>
+</suite>
+
